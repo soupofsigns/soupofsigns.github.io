@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="A quirky collection of creatures we've encountered on our adventures.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corinnequarium</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 0;
+        color: #333;
+      }
+      main {
+        padding: 20px;
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+      h1 {
+        color: #d32f2f;
+        font-size: 2.5em;
+        text-align: center;
+      }
+      small {
+        font-size: 0.9em;
+        color: #777;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+      }
+      td {
+        padding: 15px;
+        vertical-align: top;
+        text-align: center;
+      }
+      td img {
+        max-width: 100%;
+        border-radius: 8px;
+      }
+      section {
+        margin-bottom: 20px;
+      }
+      p {
+        margin: 0;
+        font-size: 1.1em;
+      }
+      i {
+        font-style: italic;
+      }
+      .blue-text {
+        color: #00ccff;
+      }
+      .center-text {
+        text-align: center;
+      }
+      hr {
+        border: 0;
+        border-top: 2px solid #ddd;
+        margin: 30px 0;
+      }
+      .creature {
+        font-size: 2.5em;
+        margin: 10px 0;
+      }
+      .footer-note {
+        text-align: right;
+        font-size: 0.85em;
+        color: #aaa;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1><i>Comment allez-vous, monsieur?</i></h1>
+      <p class="center-text"><small>This is a compendium of <b>creatures</b> we have encountered on our adventures.</small></p>
+
+      <article>
+        <table>
+          <tr>
+            <td style="width: 33%;">
+              <section>
+                <p class="blue-text"><i>Jacky's OG pet</i> (died in container)</p>
+                <p class="creature">>>~>>~>>~>~><<~<:<</p>
+                <p class="center-text"><small>(RIP)</small></p>
+              </section>
+            </td>
+            <td style="width: 33%;">
+              <section>
+                <p class="blue-text"><i>Baby shark and stingray on Valentino Pier</i> (Red Hook)</p>
+                <p class="creature">🦈 + (..)~></p>
+              </section>
+            </td>
+            <td style="width: 33%;">
+              <section>
+                <p class="blue-text"><i>There is a rat* in ze kitchen!</i></p>
+                <p class="creature">🐀 🥞</p>
+                <p class="footer-note"><small>*garbage rat</small></p>
+              </section>
+            </td>
+          </tr>
+          <tr>
+            <td style="width: 33%;">
+              <section>
+                <p class="blue-text"><i>Snail found in mini cooper</i></p>
+                <p class="creature">🐌 🏁 ☠️</p>
+              </section>
+            </td>
+            <td style="width: 33%;">
+              <section>
+                <p class="blue-text"><i>Corinne after jaw surgery</i></p>
+                <img src="https://metro.co.uk/wp-content/uploads/2017/11/pri_60974474.jpg?quality=90&strip=all" alt="dog ate a bee" />
+              </section>
+            </td>
+            <td></td>
+          </tr>
+        </table>
+
+        <section class="center-text">
+          <p class="blue-text"><i>Jacky's stick</i> (displayed horizontally) (best in show!)</p>
+          <hr />
+        </section>
+      </article>
+    </main>
+  </body>
+</html>
